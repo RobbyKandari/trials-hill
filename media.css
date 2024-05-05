@@ -1,0 +1,89 @@
+@media screen and (max-width: 600px){
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5vw;
+        height: 8vh;
+    }
+    #hi{
+        
+        
+    }
+    .nav img{
+        display: none;
+    }
+    #carouselExampleCaptions{
+        margin-top: 1vh;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        height: 50vh;
+    }
+    .carousel-item{
+        height: 60vh;
+    
+    }
+    .tents{
+        flex-direction: column;
+        gap: 5vh;
+        margin: 1vw 1vw;
+        width: 100vw;
+        margin-top: 8vh;
+    }
+    .our{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .one {
+        width: 100vw;
+        display: flex;
+        /* gap: vw; */
+        height: 90vh;
+        position: relative;
+        
+    }
+    .one img{
+        height: 40vh;
+        width: 40vw;
+        margin-left: 9vw;
+        border-radius: 2px;
+    
+    }
+    .two{
+        width: 100vw;
+        height: 50vh;
+        background-color: teal;
+        margin-top: 2vh;
+    }
+    .two h3{
+        color: black;
+        font-size: 2rem;
+        padding: 2vw 5vw;
+        text-decoration: underline;
+    
+    }
+    .two p {
+        padding: 2vw 4vw;
+        font-size: 1rem;
+        color: white;
+        line-break: auto;
+    }
+    .review{
+        width: 100vw;
+        height: 35vh;
+        align-items: center;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    }
+    .why p{
+        padding: 3vw 9vw;
+        font-weight: 530;
+        line-height: 1.5;
+    }
+    .about p{
+        color: #443e3e;
+        padding: 4vw 4vw;
+        font-size: 1.rem;
+    }
+}
